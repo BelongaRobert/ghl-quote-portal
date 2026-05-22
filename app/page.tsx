@@ -24,6 +24,15 @@ export default function Home() {
           </ol>
         </div>
 
+        <div className="mt-8 flex items-center justify-center gap-4">
+          <a
+            href="/create"
+            className="inline-flex items-center rounded-xl bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-brand-700 transition-colors"
+          >
+            Create Quote
+          </a>
+        </div>
+
         <p className="text-xs text-slate-400 mt-8">
           API endpoints: <code className="bg-slate-200 px-1 py-0.5 rounded">/api/webhook/ghl</code> · <code className="bg-slate-200 px-1 py-0.5 rounded">/api/quote/create</code> · <code className="bg-slate-200 px-1 py-0.5 rounded">/api/quote/approve</code>
         </p>
